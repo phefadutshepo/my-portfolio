@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Phefadu Tshepo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="landing-page">
+            <header class="header">
+                <a href="#" class="logo">Tsh<span>epo</span></a>
+    
+                <nav id="navbar">
+                    <a href="index.html" class="link active">Home</a>
+                    <a href="article.html" class="link">Article</a>
+                    <a href="#projects" class="link">Projects</a>
+                    <a href="#contact-form" class="link">Contact</a>
+                </nav>
+            </header>
+
+            <section class="landing-page-body">
+                <div class="image">
+                    <img src="images/Tshepo_removebg.png" alt="">
+                </div>
+                <!-- commented text and back grid image -->
+                <div class="landing-content">
+                    <h1>Hi, I'm Phefadu Tshepo</h1>
+                    <h3 id="professions">I Am A Software Engineer & Cloud Engineer</h3>
+
+                    <div class="about-me">
+                        <p>Technology enthusiast with unlimited curiousity. Always asking questions, reading, researching
+                            and programming <br> #CloudComputing #AWS #SoftwareDevelopment.</p>
+                        <div class="gold-line"></div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/phefadutshepo"><i class='bx bxl-github'></i></a>
+                    <a href="https://twitter.com/phefadu_tshepo"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://www.linkedin.com/in/phefadu-tshepo-94564615a/"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </section>
+        </div>
+
+        <section class="page-body">
+            <div class="skills">
+                <!-- <div class="dotted-background"></div> -->
+                <div class="info-box rightside-position">
+                    <h1>Programming Languages</h1>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+    
+                <div class="info-box leftside-position">
+                    <h1>Web-development.</h1>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React(Intermediate)</li>
+                    </ul>
+                    <h1>Database Management.</h1>
+                    <ul>
+                        <li>SQL</li>
+                        <li>SQLite</li>
+                    </ul>
+                </div>
+    
+                <div class="info-box rightside-position">
+                    <h1>More skills & Knowledge.</h1>
+                    <ul>
+                        <li>Version control: Git</li>
+                        <li>Object Oriented Programming(OOP)</li>
+                        <li>Test-Driven Development(TDD)</li>
+                        <li>Agile Software Development Methodologies</li>
+                        <li>Debugging & trouble-shooting</li>
+                        <li>Software Architecture & Design Patterns</li>
+                        <li>CI/CD - Continuous Integration/Continuous Deployment</li>
+                        <li>Linux/Unix Systems</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="projects" class="projects">
+                <div class="project-container">
+                    <h1>News & Interests...</h1>
+                    <div class="detailed-projects">
+                        <img src="images/Groupprojectimage.jpg" alt="" >
+                        
+                        <div class="description">
+                            <h2>ALX Group Projects</h2>
+                            <p>As a highly effective team member, I bring excellent communication skills that foster seamless collaboration among peers. 
+                                My strong time management expertise ensures the project stays on track, while I embrace challenges that arise in group dynamics with resilience.
+                                 Successfully delivering our governance app milestone at ALX showcases my ability to work harmoniously and efficiently within a team, 
+                                 ultimately achieving our collective goals. In this months long project me and my teammates had team stand-ups,
+                                 meeting, work discussions and work reviews. This taught and gave me experience of working in a team with unfamiliar peers. #ALX
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="dots">
+                        <p>O</p>
+                        <p>O</p>
+                        <p>O</p>
+                        <p>O</p>
+                        <p>O</p>
+                    </div>
+                    
+                    <div class="project-cards">
+                        <div class="project-card">
+                            <a href="https://github.com/phefadutshepo/Tollgate" target="_blank">
+                                <img src="/images/tollgate.png" alt="Toll Gate">
+                            </a>
+                            <div class="project-name">Toll Gate</div>
+                        </div>
+                        <div class="project-card">
+                            <a href="https://github.com/phefadutshepo/Voting-System" target="_blank">
+                                <img src="/images/Voting.png" alt="Voting System">
+                            </a>
+                            <div class="project-name">Voting System</div>
+                        </div>
+                        <div class="project-card">
+                            <a href="https://github.com/phefadutshepo/TourismApplication" target="_blank">
+                                <img src="/images/Tourism App.png" alt="Tourism Application">
+                            </a>
+                            <div class="project-name">Tourism Application</div>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <button>&lt;&lt;</button>
+                        <button>&gt;&gt;</button>
+                    </div>
+                </div>
+            </div>
+           
+            <div id="contact-form" class="contact-form">
+                <h3>Contact Me</h3>
+
+                <div class="container-form">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                        <option value="South Africa">South Africa</option>
+                        <option value="Other">Other...</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="footer-content">
+                    <p>Created by Phefadu Tshepo.</p>
+                    <p>Copyright &copy; | All rights reserved.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
